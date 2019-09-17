@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="FALCA E-Solutions" duration-ms="34716" started-at="2019-09-17T06:10:18Z" finished-at="2019-09-17T06:10:53Z">
+    <groups>
+    </groups>
+    <test name="FALCA" duration-ms="34716" started-at="2019-09-17T06:10:18Z" finished-at="2019-09-17T06:10:53Z">
+      <class name="Script.jenkin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:Script.jenkin@6fb554cc]" name="openApplication" is-config="true" duration-ms="14344" started-at="2019-09-17T06:10:18Z" finished-at="2019-09-17T06:10:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="google()[pri:0, instance:Script.jenkin@6fb554cc]" name="google" duration-ms="19349" started-at="2019-09-17T06:10:32Z" finished-at="2019-09-17T06:10:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:Script.jenkin@6fb554cc]" name="closeApplication" is-config="true" duration-ms="973" started-at="2019-09-17T06:10:52Z" finished-at="2019-09-17T06:10:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- Script.jenkin -->
+    </test> <!-- FALCA -->
+  </suite> <!-- FALCA E-Solutions -->
+</testng-results>

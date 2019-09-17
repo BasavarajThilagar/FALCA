@@ -1,0 +1,13 @@
+package generic;
+
+public interface AutoConst 
+{
+	String CHROME_KEY="webdriver.chrome.driver";
+	String CHROME_VALUE="./driver/chromedriver.exe";
+	String FARMERAPK="./data/farmer.apk";
+	String FIELDAPK="./data/field.apk";
+	String CONFIG_PATH="./data/config.properties";
+	String WRITE_PATH="./data/write.properties";
+	String ADMINCONFIG_PATH="./data/AdminLoginTest.properties";
+
+}
