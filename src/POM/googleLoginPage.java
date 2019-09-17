@@ -32,6 +32,7 @@ public class googleLoginPage
 	{
 		String a = span.getText();
 		System.out.println(a);
+		System.out.println(a);
 		Assert.assertEquals(a,"B");
 		
 		Thread.sleep(3000);
