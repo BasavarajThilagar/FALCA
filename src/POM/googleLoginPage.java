@@ -31,6 +31,10 @@ public class googleLoginPage
 	{
 		String a = span.getText();
 		System.out.println(a);
+		if(a.equals("Basavaraj Thilagar"))
+		{
+			System.out.println("Raj Pass");
+		}
 		Thread.sleep(3000);
 	}
 	
