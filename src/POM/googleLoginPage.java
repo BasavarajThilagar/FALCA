@@ -31,7 +31,7 @@ public class googleLoginPage
 	{
 		String a = span.getText();
 		System.out.println(a);
-		if(a.equals("Basavaraj Thilagar"))
+		if(a.equals("B"))
 		{
 			System.out.println("Raj Pass");
 		}
