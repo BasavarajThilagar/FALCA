@@ -23,7 +23,7 @@ public class jenkin extends WebBase
 		
 		google.gbox();
 		google.span();
-		Reporter.log("Success");
+		Reporter.log("This is a test mail sent from Jenkins");
 	}
 
 }
