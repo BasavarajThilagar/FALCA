@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.Reporter;
 
 public class googleLoginPage
 {
@@ -31,7 +32,7 @@ public class googleLoginPage
 	public void span() throws InterruptedException
 	{
 		String a = span.getText();
-		System.out.println(a);
+		Reporter.log(a);
 		Assert.assertEquals(a,"Basavaraj Thilagar");
 		
 		Thread.sleep(3000);

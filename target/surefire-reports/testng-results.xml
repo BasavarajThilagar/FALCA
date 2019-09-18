@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="FALCA E-Solutions" duration-ms="34716" started-at="2019-09-17T06:10:18Z" finished-at="2019-09-17T06:10:53Z">
+  <suite name="FALCA E-Solutions" duration-ms="29640" started-at="2019-09-18T07:53:27Z" finished-at="2019-09-18T07:53:57Z">
     <groups>
     </groups>
-    <test name="FALCA" duration-ms="34716" started-at="2019-09-17T06:10:18Z" finished-at="2019-09-17T06:10:53Z">
+    <test name="FALCA" duration-ms="29640" started-at="2019-09-18T07:53:27Z" finished-at="2019-09-18T07:53:57Z">
       <class name="Script.jenkin">
-        <test-method status="PASS" signature="openApplication()[pri:0, instance:Script.jenkin@6fb554cc]" name="openApplication" is-config="true" duration-ms="14344" started-at="2019-09-17T06:10:18Z" finished-at="2019-09-17T06:10:32Z">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:Script.jenkin@6fb554cc]" name="openApplication" is-config="true" duration-ms="18426" started-at="2019-09-18T07:53:27Z" finished-at="2019-09-18T07:53:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="google()[pri:0, instance:Script.jenkin@6fb554cc]" name="google" duration-ms="19349" started-at="2019-09-17T06:10:32Z" finished-at="2019-09-17T06:10:52Z">
+        <test-method status="PASS" signature="google()[pri:0, instance:Script.jenkin@6fb554cc]" name="google" duration-ms="10311" started-at="2019-09-18T07:53:46Z" finished-at="2019-09-18T07:53:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- google -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:Script.jenkin@6fb554cc]" name="closeApplication" is-config="true" duration-ms="973" started-at="2019-09-17T06:10:52Z" finished-at="2019-09-17T06:10:53Z">
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:Script.jenkin@6fb554cc]" name="closeApplication" is-config="true" duration-ms="863" started-at="2019-09-18T07:53:56Z" finished-at="2019-09-18T07:53:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->

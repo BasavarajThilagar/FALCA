@@ -1,5 +1,6 @@
 package Script;
 
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import POM.googleLoginPage;
@@ -22,6 +23,7 @@ public class jenkin extends WebBase
 		
 		google.gbox();
 		google.span();
+		Reporter.log("Success");
 	}
 
 }
