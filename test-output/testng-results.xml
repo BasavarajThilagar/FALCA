@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="FALCA E-Solutions" duration-ms="29447" started-at="2019-09-17T07:55:50Z" finished-at="2019-09-17T07:56:19Z">
+  <suite name="FALCA E-Solutions" duration-ms="28208" started-at="2019-09-17T13:58:57Z" finished-at="2019-09-17T13:59:25Z">
     <groups>
     </groups>
-    <test name="FALCA" duration-ms="29447" started-at="2019-09-17T07:55:50Z" finished-at="2019-09-17T07:56:19Z">
+    <test name="FALCA" duration-ms="28208" started-at="2019-09-17T13:58:57Z" finished-at="2019-09-17T13:59:25Z">
       <class name="Script.jenkin">
-        <test-method status="PASS" signature="openApplication()[pri:0, instance:Script.jenkin@564718df]" name="openApplication" is-config="true" duration-ms="14202" started-at="2019-09-17T13:25:50Z" finished-at="2019-09-17T13:26:04Z">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:Script.jenkin@6adca536]" name="openApplication" is-config="true" duration-ms="18569" started-at="2019-09-17T19:28:57Z" finished-at="2019-09-17T19:29:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="FAIL" signature="google()[pri:0, instance:Script.jenkin@564718df]" name="google" duration-ms="14378" started-at="2019-09-17T13:26:04Z" finished-at="2019-09-17T13:26:19Z">
+        <test-method status="FAIL" signature="google()[pri:0, instance:Script.jenkin@6adca536]" name="google" duration-ms="8696" started-at="2019-09-17T19:29:15Z" finished-at="2019-09-17T19:29:24Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [B] but found [Basavaraj Thilagar]]]>
@@ -23,7 +23,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:125)
 	at org.testng.Assert.assertEquals(Assert.java:178)
 	at org.testng.Assert.assertEquals(Assert.java:188)
-	at POM.googleLoginPage.span(googleLoginPage.java:35)
+	at POM.googleLoginPage.span(googleLoginPage.java:36)
 	at Script.jenkin.google(jenkin.java:24)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- google -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:Script.jenkin@564718df]" name="closeApplication" is-config="true" duration-ms="832" started-at="2019-09-17T13:26:19Z" finished-at="2019-09-17T13:26:19Z">
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:Script.jenkin@6adca536]" name="closeApplication" is-config="true" duration-ms="912" started-at="2019-09-17T19:29:24Z" finished-at="2019-09-17T19:29:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
