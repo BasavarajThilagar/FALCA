@@ -33,7 +33,7 @@ public class googleLoginPage
 	{
 		String a = span.getText();
 		Reporter.log(a);
-		Assert.assertEquals("B",a);
+		Assert.assertEquals("Basavaraj Thilagar",a);
 		
 		Thread.sleep(3000);
 	}
