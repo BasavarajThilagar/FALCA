@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="FALCA E-Solutions" duration-ms="29640" started-at="2019-09-18T07:53:27Z" finished-at="2019-09-18T07:53:57Z">
+  <suite name="FALCA E-Solutions" duration-ms="42874" started-at="2019-09-20T08:05:58Z" finished-at="2019-09-20T08:06:41Z">
     <groups>
     </groups>
-    <test name="FALCA" duration-ms="29640" started-at="2019-09-18T07:53:27Z" finished-at="2019-09-18T07:53:57Z">
-      <class name="Script.jenkin">
-        <test-method status="PASS" signature="openApplication()[pri:0, instance:Script.jenkin@6fb554cc]" name="openApplication" is-config="true" duration-ms="18426" started-at="2019-09-18T07:53:27Z" finished-at="2019-09-18T07:53:46Z">
+    <test name="FALCA" duration-ms="42874" started-at="2019-09-20T08:05:58Z" finished-at="2019-09-20T08:06:41Z">
+      <class name="Script.mobile">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:Script.mobile@13a57a3b]" name="openApplication" is-config="true" duration-ms="13892" started-at="2019-09-20T08:05:58Z" finished-at="2019-09-20T08:06:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="google()[pri:0, instance:Script.jenkin@6fb554cc]" name="google" duration-ms="10311" started-at="2019-09-18T07:53:46Z" finished-at="2019-09-18T07:53:56Z">
+        <test-method status="PASS" signature="FarmerRegistration()[pri:1, instance:Script.mobile@13a57a3b]" name="FarmerRegistration" duration-ms="28082" started-at="2019-09-20T08:06:12Z" finished-at="2019-09-20T08:06:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- google -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:Script.jenkin@6fb554cc]" name="closeApplication" is-config="true" duration-ms="863" started-at="2019-09-18T07:53:56Z" finished-at="2019-09-18T07:53:57Z">
+        </test-method> <!-- FarmerRegistration -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:Script.mobile@13a57a3b]" name="closeApplication" is-config="true" duration-ms="867" started-at="2019-09-20T08:06:40Z" finished-at="2019-09-20T08:06:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-      </class> <!-- Script.jenkin -->
+      </class> <!-- Script.mobile -->
     </test> <!-- FALCA -->
   </suite> <!-- FALCA E-Solutions -->
 </testng-results>

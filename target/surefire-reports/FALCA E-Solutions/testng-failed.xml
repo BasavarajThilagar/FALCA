@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [FALCA E-Solutions]">
+  <test thread-count="5" verbose="0" name="FALCA(failed)">
+    <classes>
+      <class name="Script.mobile">
+        <methods>
+          <include name="FarmerRegistration"/>
+          <include name="openApplication"/>
+          <include name="closeApplication"/>
+        </methods>
+      </class> <!-- Script.mobile -->
+    </classes>
+  </test> <!-- FALCA(failed) -->
+</suite> <!-- Failed suite [FALCA E-Solutions] -->
