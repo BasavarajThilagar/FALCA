@@ -21,8 +21,6 @@ public class WebBase implements AutoConst
 	{
 		try
 		{
-			
-					
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS); 
@@ -34,11 +32,9 @@ public class WebBase implements AutoConst
 		}
 	}
 	
-
 	@AfterClass
 	public void closeApplication()
 	{
 		driver.quit();
 	}	
-
 }

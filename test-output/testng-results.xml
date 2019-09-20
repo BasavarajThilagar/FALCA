@@ -1,65 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="FALCA E-Solutions" duration-ms="28208" started-at="2019-09-17T13:58:57Z" finished-at="2019-09-17T13:59:25Z">
+  <suite name="FALCA E-Solutions" duration-ms="86394" started-at="2019-09-20T07:34:14Z" finished-at="2019-09-20T07:35:40Z">
     <groups>
     </groups>
-    <test name="FALCA" duration-ms="28208" started-at="2019-09-17T13:58:57Z" finished-at="2019-09-17T13:59:25Z">
-      <class name="Script.jenkin">
-        <test-method status="PASS" signature="openApplication()[pri:0, instance:Script.jenkin@6adca536]" name="openApplication" is-config="true" duration-ms="18569" started-at="2019-09-17T19:28:57Z" finished-at="2019-09-17T19:29:15Z">
+    <test name="FALCA" duration-ms="86394" started-at="2019-09-20T07:34:14Z" finished-at="2019-09-20T07:35:40Z">
+      <class name="Script.mobile">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:Script.mobile@7f77e91b]" name="openApplication" is-config="true" duration-ms="24463" started-at="2019-09-20T13:04:14Z" finished-at="2019-09-20T13:04:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="FAIL" signature="google()[pri:0, instance:Script.jenkin@6adca536]" name="google" duration-ms="8696" started-at="2019-09-17T19:29:15Z" finished-at="2019-09-17T19:29:24Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [B] but found [Basavaraj Thilagar]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [B] but found [Basavaraj Thilagar]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at org.testng.Assert.assertEquals(Assert.java:178)
-	at org.testng.Assert.assertEquals(Assert.java:188)
-	at POM.googleLoginPage.span(googleLoginPage.java:36)
-	at Script.jenkin.google(jenkin.java:24)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:771)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
-	at org.testng.TestNG.run(TestNG.java:1033)
-	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="FarmerRegistration()[pri:0, instance:Script.mobile@7f77e91b]" name="FarmerRegistration" duration-ms="61178" started-at="2019-09-20T13:04:38Z" finished-at="2019-09-20T13:05:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- google -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:Script.jenkin@6adca536]" name="closeApplication" is-config="true" duration-ms="912" started-at="2019-09-17T19:29:24Z" finished-at="2019-09-17T19:29:25Z">
+        </test-method> <!-- FarmerRegistration -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:Script.mobile@7f77e91b]" name="closeApplication" is-config="true" duration-ms="712" started-at="2019-09-20T13:05:39Z" finished-at="2019-09-20T13:05:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-      </class> <!-- Script.jenkin -->
+      </class> <!-- Script.mobile -->
     </test> <!-- FALCA -->
   </suite> <!-- FALCA E-Solutions -->
 </testng-results>
