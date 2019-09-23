@@ -13,7 +13,7 @@ public class WebBase implements AutoConst
 {
 	static
 	{
-		System.setProperty(CHROME_KEY,CHROME_VALUE);
+		System.setProperty(CHROME_KEY,"/usr/bin/chromedriver");
 	}
 	public WebDriver driver;
 	
