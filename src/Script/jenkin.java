@@ -9,10 +9,6 @@ import generic.WebBase;
 
 public class jenkin extends WebBase
 {
-	static
-	{
-		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver");
-	}
 	
 	@Test
 	public void google() throws InterruptedException

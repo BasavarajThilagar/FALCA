@@ -30,7 +30,7 @@ public class WebBase implements AutoConst
 		Thread.sleep(2000);
 		}catch(Exception e)
 		{
-			Reporter.log("Server down",true);
+			Reporter.log("Server down retest",true);
 			System.out.println(e);
 		}
 	}
