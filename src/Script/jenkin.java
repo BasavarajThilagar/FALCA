@@ -11,7 +11,7 @@ public class jenkin extends WebBase
 {
 	static
 	{
-		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver");
 	}
 	
 	@Test
