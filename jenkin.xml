@@ -4,8 +4,8 @@
   <test name="FALCA">
     <classes>
     
-    	<!-- <class name="Script.jenkin"/> -->
-    	<class name="Script.mobile"/>
+    	<class name="Script.jenkin"/>
+    	<!-- <class name="Script.mobile"/> -->
     	
     </classes>
   </test> <!-- Test -->
