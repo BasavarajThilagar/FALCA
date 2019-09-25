@@ -22,10 +22,12 @@ public class WebBase implements AutoConst
 	{
 		try
 		{
+			System.out.println("entered webbase");
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.addArguments("--headless");
 			driver = new ChromeDriver(chromeOptions);
 			driver.manage().window().maximize();
+			System.out.println("Driver opened and max");
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			Thread.sleep(2000);
 		}catch(Exception e)
