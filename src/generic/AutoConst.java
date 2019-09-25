@@ -4,7 +4,7 @@ public interface AutoConst
 {
 	String CHROME_KEY="webdriver.chrome.driver";
 	//Server
-	String CHROME_VALUE="./driver/chromedriverr";
+	String CHROME_VALUE="driver/chromedriverr";
 	
 	// Windows base
 	//String CHROME_VALUE="./driver/chromedriver.exe";
