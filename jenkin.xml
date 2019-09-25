@@ -5,6 +5,7 @@
     <classes>
     
     	<class name="Script.jenkin"/>
+    	<!-- <class name="Script.mobile"/> -->
     	
     </classes>
   </test> <!-- Test -->

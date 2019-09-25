@@ -22,13 +22,12 @@ public class WebBase implements AutoConst
 	{
 		try
 		{
-			System.out.println("Started webbase");
 			ChromeOptions chromeOptions = new ChromeOptions();
-		    chromeOptions.addArguments("--headless");
-		driver = new ChromeDriver(chromeOptions);
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS); 
-		Thread.sleep(2000);
+			chromeOptions.addArguments("--headless");
+			driver = new ChromeDriver(chromeOptions);
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			Thread.sleep(2000);
 		}catch(Exception e)
 		{
 			Reporter.log("Server down retest",true);
