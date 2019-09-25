@@ -5,6 +5,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import generic.WebBase;
@@ -26,6 +27,8 @@ public class mobile extends WebBase
 			Thread.sleep(15000);
 			String a = driver.getDeviceTime();
 			System.out.println(a);
+			Reporter.log(a);
+			Reporter.log("Mobile Success");
 	}
 
 }
