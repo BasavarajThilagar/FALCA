@@ -31,6 +31,7 @@ public class mobile extends WebBase
 			String a = driver.getDeviceTime();
 			System.out.println(a);
 			Reporter.log(a);
+			System.out.println("Mobile success");
 			Reporter.log("Mobile Success");
 			driver.closeApp();
 			driver.quit();

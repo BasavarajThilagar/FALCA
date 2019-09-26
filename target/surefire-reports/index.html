@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-FALCA_E-Solutions">
-              <span class="suite-name border-failed">FALCA E-Solutions</span>
+              <span class="suite-name border-passed">FALCA E-Solutions</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-FALCA_E-Solutions" class="hide-methods failed suite-FALCA_E-Solutions"> (hide)</a> <!-- hide-methods failed suite-FALCA_E-Solutions -->
-                      <a href="#" panel-name="suite-FALCA_E-Solutions" class="show-methods failed suite-FALCA_E-Solutions"> (show)</a> <!-- show-methods failed suite-FALCA_E-Solutions -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FALCA_E-Solutions" class="hide-methods passed suite-FALCA_E-Solutions"> (hide)</a> <!-- hide-methods passed suite-FALCA_E-Solutions -->
+                      <a href="#" panel-name="suite-FALCA_E-Solutions" class="show-methods passed suite-FALCA_E-Solutions"> (show)</a> <!-- show-methods passed suite-FALCA_E-Solutions -->
                     </span>
-                    <div class="method-list-content failed suite-FALCA_E-Solutions">
+                    <div class="method-list-content passed suite-FALCA_E-Solutions">
                       <span>
-                        <img width="3%" src="failed.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-FALCA_E-Solutions" title="Script.mobile" hash-for-method="FarmerRegistration">FarmerRegistration</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-FALCA_E-Solutions -->
+                    </div> <!-- method-list-content passed suite-FALCA_E-Solutions -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-FALCA_E-Solutions" class="panel FALCA_E-Solutions">
-          <div class="suite-FALCA_E-Solutions-class-failed">
+          <div class="suite-FALCA_E-Solutions-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">Script.mobile</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,61 +128,10 @@
                   <a name="FarmerRegistration">
                   </a> <!-- FarmerRegistration -->
                   <span class="method-name">FarmerRegistration</span>
-                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Error occured while starting AndroidBootstrap. Original error: Error: Error executing adbExec. Original error: &apos;Command &apos;C\:\\Users\\Temp.PALC-E470-PG00W\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 172.27.1.68\:5555 push C\:\\Users\\Temp.PALC-E470-PG00W\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/&apos; timed out after 20000ms&apos;. Try to increase the 20000ms adb execution timeout represented by &apos;adbExecTimeout&apos; capability
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;PALC-E470-PG00W&apos;, ip: &apos;192.168.220.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error occured while starting AndroidBootstrap. Original error: Error: Error executing adbExec. Original error: &apos;Command &apos;C\:\\Users\\Temp.PALC-E470-PG00W\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 172.27.1.68\:5555 push C\:\\Users\\Temp.PALC-E470-PG00W\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/&apos; timed out after 20000ms&apos;. Try to increase the 20000ms adb execution timeout represented by &apos;adbExecTimeout&apos; capability
-    at getResponseForW3CError (C:\Users\Temp.PALC-E470-PG00W\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
-    at asyncHandler (C:\Users\Temp.PALC-E470-PG00W\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;PALC-E470-PG00W&apos;, ip: &apos;192.168.220.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: driver.version: AndroidDriver
-	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
-	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
-	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:94)
-	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:95)
-	at Script.mobile.FarmerRegistration(mobile.java:27)
-	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
-	... 42 more
-Caused by: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error occured while starting AndroidBootstrap. Original error: Error: Error executing adbExec. Original error: &apos;Command &apos;C\:\\Users\\Temp.PALC-E470-PG00W\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 172.27.1.68\:5555 push C\:\\Users\\Temp.PALC-E470-PG00W\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/&apos; timed out after 20000ms&apos;. Try to increase the 20000ms adb execution timeout represented by &apos;adbExecTimeout&apos; capability
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;PALC-E470-PG00W&apos;, ip: &apos;192.168.220.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: driver.version: AndroidDriver
-remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Error occured while starting AndroidBootstrap. Original error: Error: Error executing adbExec. Original error: &apos;Command &apos;C\:\\Users\\Temp.PALC-E470-PG00W\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s 172.27.1.68\:5555 push C\:\\Users\\Temp.PALC-E470-PG00W\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/&apos; timed out after 20000ms&apos;. Try to increase the 20000ms adb execution timeout represented by &apos;adbExecTimeout&apos; capability
-    at getResponseForW3CError (C:\Users\Temp.PALC-E470-PG00W\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:826:9)
-    at asyncHandler (C:\Users\Temp.PALC-E470-PG00W\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:447:37)
-    at process._tickCallback (internal/process/next_tick.js:68:7)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	... 47 more
-... Removed 38 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-FALCA_E-Solutions-class-failed -->
+          </div> <!-- suite-FALCA_E-Solutions-class-passed -->
         </div> <!-- panel FALCA_E-Solutions -->
         <div panel-name="test-xml-FALCA_E-Solutions" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -239,12 +188,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'FarmerRegistration')
 data.setCell(0, 2, 'Script.mobile')
-data.setCell(0, 3, 77558);
+data.setCell(0, 3, 47698);
 window.suiteTableData['FALCA_E-Solutions']= { tableData: data, tableDiv: 'times-div-FALCA_E-Solutions'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
               <div id="times-div-FALCA_E-Solutions">
               </div> <!-- times-div-FALCA_E-Solutions -->
             </div> <!-- times-div -->
@@ -255,6 +204,13 @@ return data;
             <span class="header-content">Reporter output for FALCA E-Solutions</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">FarmerRegistration</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2019-09-26T13:03:55+05:30</span>
+                <span class="reporter-method-output">Mobile Success</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-FALCA_E-Solutions" class="panel">
@@ -276,14 +232,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">FarmerRegistration</span>
-                <span class="method-start">14287 ms</span>
+                <span class="method-start">14008 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">closeApplication</span>
-                <span class="method-start">91858 ms</span>
+                <span class="method-start">61708 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
