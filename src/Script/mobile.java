@@ -23,14 +23,17 @@ public class mobile extends WebBase
 			DesiredCapabilities cap = new DesiredCapabilities();
 			cap.setCapability(MobileCapabilityType.DEVICE_NAME, "FALCA-MobileTest");
 			cap.setCapability(MobileCapabilityType.APP, apk.getAbsolutePath());
-			cap.setCapability("noReset", true);
+			//cap.setCapability("noReset", true);
 			AndroidDriver<AndroidElement> driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"),cap);
+		
 			System.out.println("Mobile launched");
 			Thread.sleep(15000);
 			String a = driver.getDeviceTime();
 			System.out.println(a);
 			Reporter.log(a);
 			Reporter.log("Mobile Success");
+			driver.closeApp();
+			driver.quit();
 	}
 
 }

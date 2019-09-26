@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Basavaraj Thilagar]]>
+      <![CDATA[2019-09-26T12:31:20+05:30]]>
     </line>
     <line>
-      <![CDATA[This is a test mail sent from Jenkins]]>
+      <![CDATA[Mobile Success]]>
     </line>
   </reporter-output>
-  <suite name="FALCA E-Solutions" duration-ms="33394" started-at="2019-09-23T08:31:05Z" finished-at="2019-09-23T08:31:38Z">
+  <suite name="FALCA E-Solutions" duration-ms="99871" started-at="2019-09-26T06:59:47Z" finished-at="2019-09-26T07:01:27Z">
     <groups>
     </groups>
-    <test name="FALCA" duration-ms="33394" started-at="2019-09-23T08:31:05Z" finished-at="2019-09-23T08:31:38Z">
-      <class name="Script.jenkin">
-        <test-method status="PASS" signature="openApplication()[pri:0, instance:Script.jenkin@7f560810]" name="openApplication" is-config="true" duration-ms="18278" started-at="2019-09-23T08:31:05Z" finished-at="2019-09-23T08:31:23Z">
+    <test name="FALCA" duration-ms="99871" started-at="2019-09-26T06:59:47Z" finished-at="2019-09-26T07:01:27Z">
+      <class name="Script.mobile">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:Script.mobile@13a57a3b]" name="openApplication" is-config="true" duration-ms="18243" started-at="2019-09-26T06:59:47Z" finished-at="2019-09-26T07:00:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="google()[pri:0, instance:Script.jenkin@7f560810]" name="google" duration-ms="14378" started-at="2019-09-23T08:31:23Z" finished-at="2019-09-23T08:31:38Z">
+        <test-method status="PASS" signature="FarmerRegistration()[pri:1, instance:Script.mobile@13a57a3b]" name="FarmerRegistration" duration-ms="80895" started-at="2019-09-26T07:00:05Z" finished-at="2019-09-26T07:01:26Z">
           <reporter-output>
             <line>
-              <![CDATA[Basavaraj Thilagar]]>
+              <![CDATA[2019-09-26T12:31:20+05:30]]>
             </line>
             <line>
-              <![CDATA[This is a test mail sent from Jenkins]]>
+              <![CDATA[Mobile Success]]>
             </line>
           </reporter-output>
-        </test-method> <!-- google -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:Script.jenkin@7f560810]" name="closeApplication" is-config="true" duration-ms="622" started-at="2019-09-23T08:31:38Z" finished-at="2019-09-23T08:31:38Z">
+        </test-method> <!-- FarmerRegistration -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:Script.mobile@13a57a3b]" name="closeApplication" is-config="true" duration-ms="613" started-at="2019-09-26T07:01:26Z" finished-at="2019-09-26T07:01:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-      </class> <!-- Script.jenkin -->
+      </class> <!-- Script.mobile -->
     </test> <!-- FALCA -->
   </suite> <!-- FALCA E-Solutions -->
 </testng-results>

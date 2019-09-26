@@ -4,7 +4,7 @@
   <test name="FALCA">
     <classes>
     
-    	<class name="Script.jenkin"/>
+    	<!-- <class name="Script.jenkin"/> -->
     	<class name="Script.mobile"/>
     	
     </classes>
