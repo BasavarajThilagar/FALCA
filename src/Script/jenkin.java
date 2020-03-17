@@ -2,7 +2,6 @@ package Script;
 
 import org.testng.Reporter;
 import org.testng.annotations.Test;
-
 import POM.googleLoginPage;
 import generic.Lib;
 import generic.WebBase;

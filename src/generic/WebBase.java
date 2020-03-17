@@ -13,8 +13,8 @@ public class WebBase implements AutoConst
 {
 	static
 	{
-		System.setProperty(CHROME_KEY,"/usr/bin/chromedriver");
-		//System.setProperty(CHROME_KEY,CHROME_VALUE);
+		//System.setProperty(CHROME_KEY,"/usr/bin/chromedriver");
+		System.setProperty(CHROME_KEY,CHROME_VALUE);
 	}
 	public WebDriver driver;
 	
@@ -24,9 +24,9 @@ public class WebBase implements AutoConst
 		try
 		{
 			System.out.println("entered webbase");
-			ChromeOptions chromeOptions = new ChromeOptions();
-			chromeOptions.addArguments("--headless");
-			driver = new ChromeDriver(chromeOptions);
+			//ChromeOptions chromeOptions = new ChromeOptions();
+			//chromeOptions.addArguments("--headless");
+			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			System.out.println("Driver opened and max");
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
