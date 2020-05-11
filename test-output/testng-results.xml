@@ -8,16 +8,16 @@
       <![CDATA[This is a test mail sent from Jenkins]]>
     </line>
   </reporter-output>
-  <suite name="FALCA E-Solutions" duration-ms="28069" started-at="2020-03-17T03:06:11Z" finished-at="2020-03-17T03:06:39Z">
+  <suite name="FALCA E-Solutions" duration-ms="52467" started-at="2020-05-11T05:41:38Z" finished-at="2020-05-11T05:42:30Z">
     <groups>
     </groups>
-    <test name="FALCA" duration-ms="28069" started-at="2020-03-17T03:06:11Z" finished-at="2020-03-17T03:06:39Z">
+    <test name="FALCA" duration-ms="52467" started-at="2020-05-11T05:41:38Z" finished-at="2020-05-11T05:42:30Z">
       <class name="Script.jenkin">
-        <test-method status="PASS" signature="openApplication()[pri:0, instance:Script.jenkin@6fd02e5]" name="openApplication" is-config="true" duration-ms="15240" started-at="2020-03-17T03:06:11Z" finished-at="2020-03-17T03:06:26Z">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:Script.jenkin@4f6ee6e4]" name="openApplication" is-config="true" duration-ms="11550" started-at="2020-05-11T05:41:38Z" finished-at="2020-05-11T05:41:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="google()[pri:0, instance:Script.jenkin@6fd02e5]" name="google" duration-ms="11603" started-at="2020-03-17T03:06:26Z" finished-at="2020-03-17T03:06:38Z">
+        <test-method status="PASS" signature="google()[pri:0, instance:Script.jenkin@4f6ee6e4]" name="google" duration-ms="40133" started-at="2020-05-11T05:41:49Z" finished-at="2020-05-11T05:42:30Z">
           <reporter-output>
             <line>
               <![CDATA[Basavaraj Thilagar]]>
@@ -27,7 +27,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- google -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:Script.jenkin@6fd02e5]" name="closeApplication" is-config="true" duration-ms="1127" started-at="2020-03-17T03:06:38Z" finished-at="2020-03-17T03:06:39Z">
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:Script.jenkin@4f6ee6e4]" name="closeApplication" is-config="true" duration-ms="711" started-at="2020-05-11T05:42:30Z" finished-at="2020-05-11T05:42:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->

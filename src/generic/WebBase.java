@@ -29,6 +29,7 @@ public class WebBase implements AutoConst
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			System.out.println("Driver opened and max");
+			
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			Thread.sleep(2000);
 		}catch(Exception e)
