@@ -18,7 +18,7 @@ public class DemoConsumer extends WebBase
 		{
 			Reporter.log("Inside login page");
 			
-			driver.get("http:www.google.com");
+			driver.get("https://falca.in/login");
 			
 			
 			
@@ -38,7 +38,6 @@ public class DemoConsumer extends WebBase
 			login.ClickLoginBtn();
 			Thread.sleep(8000);*/
 			Reporter.log("Admin loged-in Successfully.");
-			//System.out.println("Admin loged-in Successfully.");
 		}catch(Exception e)
 		{
 		Reporter.log(e.getMessage(),true);
@@ -47,22 +46,5 @@ public class DemoConsumer extends WebBase
 
 	}
 	
-	/*@Test(priority=2)
-	public void testProfile()
-	{
-		try
-		{
-			ConsumerExtraPage addaddress= new ConsumerExtraPage(driver);
-			addaddress.Username();
-			addaddress.Profile();
-			Reporter.log("Profile clicked Successfully.");
-			//System.out.println("Profile clicked Successfully.");
-			
-		}catch(Exception e)
-		{
-		Reporter.log(e.getMessage(),true);
-		Assert.fail();
-		}
-	}*/
 
 }
