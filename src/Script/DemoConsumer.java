@@ -35,7 +35,7 @@ public class DemoConsumer extends WebBase
 
 	}
 	
-	@Test(priority=2)
+	/*@Test(priority=2)
 	public void testProfile()
 	{
 		try
@@ -51,6 +51,6 @@ public class DemoConsumer extends WebBase
 		Reporter.log(e.getMessage(),true);
 		Assert.fail();
 		}
-	}
+	}*/
 
 }
