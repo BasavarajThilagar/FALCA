@@ -4,7 +4,6 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import POM.ConsumerExtraPage;
 import POM.ConsumerLoginPage;
 import generic.Lib;
 import generic.WebBase;
@@ -16,6 +15,7 @@ public class DemoConsumer extends WebBase
 	{
 		try
 		{
+			Reporter.log("Inside login page");
 			String url = Lib.getProperty(CONFIG_PATH,"CosumerUrl");
 			driver.get(url);
 			ConsumerLoginPage login= new ConsumerLoginPage(driver);

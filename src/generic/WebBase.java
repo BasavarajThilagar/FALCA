@@ -23,6 +23,7 @@ public class WebBase implements AutoConst
 	{
 		try
 		{
+			Reporter.log("code started");
  			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.addArguments("--headless");
 			/*driver = new ChromeDriver();
@@ -31,6 +32,7 @@ public class WebBase implements AutoConst
 			
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			Thread.sleep(2000);*/
+			Reporter.log("code end webbase");
 		}catch(Exception e)
 		{
 			Reporter.log("Server down retest",true);
