@@ -5,8 +5,8 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 //import POM.ConsumerLoginPage;
-import POM.googleLoginPage;
-import generic.Lib;
+//import POM.googleLoginPage;
+//import generic.Lib;
 import generic.WebBase;
 
 public class DemoConsumer extends WebBase
@@ -17,11 +17,16 @@ public class DemoConsumer extends WebBase
 		try
 		{
 			Reporter.log("Inside login page");
-			String url = Lib.getProperty(CONFIG_PATH, "url");
+			
+			driver.get("http:www.google.com");
+			
+			
+			
+			/*String url = Lib.getProperty(CONFIG_PATH, "url");
 			driver.get(url);
 			Thread.sleep(3000);
 			googleLoginPage google=new googleLoginPage(driver);
-			google.gbox();
+			google.gbox();*/
 			/*Reporter.log("Inside login page");
 			String url = Lib.getProperty(CONFIG_PATH,"CosumerUrl");
 			driver.get(url);
