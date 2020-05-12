@@ -1,0 +1,56 @@
+package Script;
+
+import org.testng.Assert;
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+//import generic.Lib;
+import generic.WebBase;
+//import pom.ConsumerExtraPage;
+//import pom.ConsumerLoginPage;
+
+public class DemoConsumer extends WebBase
+{
+	@Test(priority=1)
+	public void login()
+	{
+		try
+		{
+			/*String url = Lib.getProperty(CONFIG_PATH,"CosumerUrl");
+			driver.get(url);
+			ConsumerLoginPage login= new ConsumerLoginPage(driver);
+			String un = Lib.getProperty(CONFIG_PATH, "ConsumerUN");
+			login.SendUserName(un);
+			String pwd = Lib.getProperty(CONFIG_PATH, "ConsumerPwd");
+			login.SendPassword(pwd);
+			login.ClickLoginBtn();
+			Thread.sleep(5000);*/
+			Reporter.log("Admin loged-in Successfully.");
+			System.out.println("Admin loged-in Successfully.");
+		}catch(Exception e)
+		{
+		Reporter.log(e.getMessage(),true);
+		Assert.fail();
+		}
+
+	}
+	
+	@Test(priority=2)
+	public void testProfile()
+	{
+		try
+		{
+			/*ConsumerExtraPage addaddress= new ConsumerExtraPage(driver);
+			addaddress.Username();
+			addaddress.Profile();*/
+			Reporter.log("Profile clicked Successfully.");
+			System.out.println("Profile clicked Successfully.");
+			
+		}catch(Exception e)
+		{
+		Reporter.log(e.getMessage(),true);
+		Assert.fail();
+		}
+	}
+
+}

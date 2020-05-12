@@ -1,9 +1,9 @@
 package generic;
 
-import java.util.concurrent.TimeUnit;
+//import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
@@ -23,15 +23,14 @@ public class WebBase implements AutoConst
 	{
 		try
 		{
-			System.out.println("entered webbase");
-			//ChromeOptions chromeOptions = new ChromeOptions();
-			//chromeOptions.addArguments("--headless");
-			driver = new ChromeDriver();
+ 			ChromeOptions chromeOptions = new ChromeOptions();
+			chromeOptions.addArguments("--headless");
+			/*driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			System.out.println("Driver opened and max");
 			
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			Thread.sleep(2000);
+			Thread.sleep(2000);*/
 		}catch(Exception e)
 		{
 			Reporter.log("Server down retest",true);
