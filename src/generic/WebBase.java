@@ -38,9 +38,9 @@ public class WebBase implements AutoConst
 		}
 	}
 	
-	@AfterClass
+	/*@AfterClass
 	public void closeApplication()
 	{
 		driver.quit();
-	}	
+	}	*/
 }
