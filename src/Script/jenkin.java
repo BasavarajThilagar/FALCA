@@ -1,8 +1,8 @@
 package Script;
 
 import java.awt.AWTException;
-import java.awt.Robot;
-import java.awt.event.KeyEvent;
+//import java.awt.Robot;
+//import java.awt.event.KeyEvent;
 
 import org.testng.Reporter;
 import org.testng.annotations.Test;
