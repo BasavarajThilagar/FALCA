@@ -3,6 +3,7 @@ package generic;
 //import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.Reporter;
@@ -26,8 +27,8 @@ public class WebBase implements AutoConst
 			Reporter.log("code started");
  			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.addArguments("--headless");
-			/*driver = new ChromeDriver();
-			driver.manage().window().maximize();
+			driver = new ChromeDriver(chromeOptions);
+			/*driver.manage().window().maximize();
 			System.out.println("Driver opened and max");
 			
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

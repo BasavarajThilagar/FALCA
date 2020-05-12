@@ -16,6 +16,7 @@ public class DemoConsumer extends WebBase
 	{
 		try
 		{
+			Reporter.log("Inside login page");
 			String url = Lib.getProperty(CONFIG_PATH, "url");
 			driver.get(url);
 			Thread.sleep(3000);
