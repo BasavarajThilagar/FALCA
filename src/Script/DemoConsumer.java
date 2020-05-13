@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import POM.ConsumerExtraPage;
 import POM.ConsumerLoginPage;
 import generic.Lib;
 import generic.WebBase;
@@ -31,6 +32,12 @@ public class DemoConsumer extends WebBase
 			login.ClickLoginBtn();
 			Thread.sleep(8000);
 			Reporter.log("Admin loged-in Successfully.");
+			
+			ConsumerExtraPage addaddress= new ConsumerExtraPage(driver);
+			addaddress.Username();
+			addaddress.Profile();
+			Reporter.log("Profile page landed Successfully.");
+			
 			
 		}catch(Exception e)
 		{
