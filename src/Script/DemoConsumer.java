@@ -20,7 +20,7 @@ public class DemoConsumer extends WebBase
 			
 			//driver.get("https://falca.in/login");
 			
-			String url = Lib.getProperty(CONFIG_PATH, "CosumerUrl");
+			String url = Lib.getProperty(CONFIG_PATH, "url");
 			driver.get(url);
 			Reporter.log("Inside login page");
 			/*Thread.sleep(6000);
