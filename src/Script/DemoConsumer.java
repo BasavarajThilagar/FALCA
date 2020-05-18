@@ -23,7 +23,7 @@ public class DemoConsumer extends WebBase
 			String url = Lib.getProperty(CONFIG_PATH, "CosumerUrl");
 			driver.get(url);
 			Reporter.log("Inside login page");
-			Thread.sleep(6000);
+			/*Thread.sleep(6000);
 			ConsumerLoginPage login= new ConsumerLoginPage(driver);
 			String un = Lib.getProperty(CONFIG_PATH, "ConsumerUN");
 			login.SendUserName(un);
@@ -36,7 +36,7 @@ public class DemoConsumer extends WebBase
 			ConsumerExtraPage addaddress= new ConsumerExtraPage(driver);
 			addaddress.Username();
 			addaddress.Profile();
-			Reporter.log("Profile page landed Successfully.");
+			Reporter.log("Profile page landed Successfully.");*/
 			
 			
 		}catch(Exception e)
